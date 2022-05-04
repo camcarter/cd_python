@@ -1,0 +1,92 @@
+	#	Time	Action	Message	Duration / Fetch
+3	1	08:08:04	INSERT INTO dojos (name) VALUES('Burbank'),('San Jose'),('Online')	3 row(s) affected
+ Records: 3  Duplicates: 0  Warnings: 0	0.000 sec
+3	2	08:08:21	INSERT INTO dojos (name) VALUES('Chicago'),('Seattle'),('Tulsa')	3 row(s) affected
+ Records: 3  Duplicates: 0  Warnings: 0	0.000 sec
+3	3	08:08:59	INSERT INTO dojos (name) VALUES('Burbank'),('San Jose'),('Online')	3 row(s) affected
+ Records: 3  Duplicates: 0  Warnings: 0	0.015 sec
+3	4	08:08:59	INSERT INTO dojos (name) VALUES('Chicago'),('Seattle'),('Tulsa')	3 row(s) affected
+ Records: 3  Duplicates: 0  Warnings: 0	0.000 sec
+3	5	08:08:59	SELECT * from dojos
+ LIMIT 0, 1000	15 row(s) returned	0.000 sec / 0.000 sec
+3	6	08:11:50	DELETE FROM dojos WHERE id=1	1 row(s) affected	0.000 sec
+3	7	08:12:12	INSERT INTO dojos (name) VALUES('Burbank'),('San Jose'),('Online')	3 row(s) affected
+ Records: 3  Duplicates: 0  Warnings: 0	0.000 sec
+3	8	08:12:12	INSERT INTO dojos (name) VALUES('Chicago'),('Seattle'),('Tulsa')	3 row(s) affected
+ Records: 3  Duplicates: 0  Warnings: 0	0.000 sec
+3	9	08:12:12	DELETE FROM dojos WHERE id=1	0 row(s) affected	0.000 sec
+3	10	08:12:12	SELECT * from dojos
+ LIMIT 0, 1000	20 row(s) returned	0.000 sec / 0.000 sec
+3	11	08:12:23	DELETE FROM dojos WHERE id=1	0 row(s) affected	0.000 sec
+3	12	08:12:46	DELETE FROM dojos WHERE id=2	1 row(s) affected	0.000 sec
+3	13	08:12:50	DELETE FROM dojos WHERE id=3	1 row(s) affected	0.000 sec
+3	14	08:12:57	SELECT * FROM dojos_and_ninjas2.ninjas
+ LIMIT 0, 1000	0 row(s) returned	0.000 sec / 0.000 sec
+3	15	08:13:01	INSERT INTO dojos (name) VALUES('Burbank'),('San Jose'),('Online')	3 row(s) affected
+ Records: 3  Duplicates: 0  Warnings: 0	0.000 sec
+3	16	08:13:01	INSERT INTO dojos (name) VALUES('Chicago'),('Seattle'),('Tulsa')	3 row(s) affected
+ Records: 3  Duplicates: 0  Warnings: 0	0.000 sec
+3	17	08:13:01	DELETE FROM dojos WHERE id=3	0 row(s) affected	0.000 sec
+3	18	08:13:01	SELECT * from dojos
+ LIMIT 0, 1000	24 row(s) returned	0.000 sec / 0.000 sec
+3	19	08:13:14	DELETE FROM dojos WHERE id=4	1 row(s) affected	0.015 sec
+3	20	08:13:17	DELETE FROM dojos WHERE id=5	1 row(s) affected	0.015 sec
+3	21	08:13:19	DELETE FROM dojos WHERE id=6	1 row(s) affected	0.015 sec
+3	22	08:18:23	INSERT INTO dojos (name) VALUES('Burbank'),('San Jose'),('Online')	3 row(s) affected
+ Records: 3  Duplicates: 0  Warnings: 0	0.000 sec
+3	23	08:18:23	INSERT INTO dojos (name) VALUES('Chicago'),('Seattle'),('Tulsa')	3 row(s) affected
+ Records: 3  Duplicates: 0  Warnings: 0	0.016 sec
+0	24	08:18:23	DELETE FROM dojos WHERE id=	Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1	0.000 sec
+3	25	08:18:23	INSERT INTO dojos (name) VALUES('Burbank'),('San Jose'),('Online')	3 row(s) affected
+ Records: 3  Duplicates: 0  Warnings: 0	0.000 sec
+3	26	08:18:23	INSERT INTO dojos (name) VALUES('Chicago'),('Seattle'),('Tulsa')	3 row(s) affected
+ Records: 3  Duplicates: 0  Warnings: 0	0.000 sec
+0	27	08:18:23	DELETE FROM dojos WHERE id=	Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1	0.000 sec
+3	28	08:18:51	SELECT * FROM dojos_and_ninjas2.ninjas
+ LIMIT 0, 1000	0 row(s) returned	0.000 sec / 0.000 sec
+3	29	08:18:54	SELECT * FROM dojos_and_ninjas2.ninjas
+ LIMIT 0, 1000	0 row(s) returned	0.000 sec / 0.000 sec
+3	30	08:19:53	SELECT * FROM dojos_and_ninjas2.ninjas
+ LIMIT 0, 1000	0 row(s) returned	0.000 sec / 0.000 sec
+3	31	08:20:05	INSERT INTO dojos (name) VALUES('Burbank'),('San Jose'),('Online')	3 row(s) affected
+ Records: 3  Duplicates: 0  Warnings: 0	0.016 sec
+3	32	08:20:05	INSERT INTO dojos (name) VALUES('Chicago'),('Seattle'),('Tulsa')	3 row(s) affected
+ Records: 3  Duplicates: 0  Warnings: 0	0.000 sec
+0	33	08:20:05	DELETE FROM dojos WHERE id=	Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1	0.000 sec
+3	34	08:20:10	SELECT * FROM dojos_and_ninjas2.ninjas
+ LIMIT 0, 1000	0 row(s) returned	0.000 sec / 0.000 sec
+3	35	08:21:15	SELECT * FROM dojos_and_ninjas2.ninjas
+ LIMIT 0, 1000	0 row(s) returned	0.000 sec / 0.000 sec
+3	36	08:21:18	INSERT INTO dojos (name) VALUES('Burbank'),('San Jose'),('Online')	3 row(s) affected
+ Records: 3  Duplicates: 0  Warnings: 0	0.016 sec
+3	37	08:21:18	INSERT INTO dojos (name) VALUES('Chicago'),('Seattle'),('Tulsa')	3 row(s) affected
+ Records: 3  Duplicates: 0  Warnings: 0	0.000 sec
+0	38	08:21:18	DELETE FROM dojos WHERE id=	Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1	0.000 sec
+3	39	08:21:31	SELECT * FROM dojos_and_ninjas2.ninjas
+ LIMIT 0, 1000	0 row(s) returned	0.000 sec / 0.000 sec
+3	40	08:24:14	INSERT INTO ninjas (first_name, last_name, age, dojo_id)
+ VALUES ('Jenny', 'Sam',39, 7),('Marty', 'McCoder',29, 7),('Jesus', 'Montes',33, 7)	3 row(s) affected
+ Records: 3  Duplicates: 0  Warnings: 0	0.016 sec
+3	41	08:24:38	SELECT * FROM dojos_and_ninjas2.ninjas
+ LIMIT 0, 1000	3 row(s) returned	0.000 sec / 0.000 sec
+3	42	08:26:07	INSERT INTO ninjas (first_name, last_name, age, dojo_id)
+ VALUES ('Jenny', 'Sam',39, 7),('Marty', 'McCoder',29, 7),('Jesus', 'Montes',33, 7)	3 row(s) affected
+ Records: 3  Duplicates: 0  Warnings: 0	0.016 sec
+3	43	08:26:13	SELECT * FROM dojos_and_ninjas2.ninjas
+ LIMIT 0, 1000	6 row(s) returned	0.000 sec / 0.000 sec
+3	44	08:27:49	INSERT INTO ninjas (first_name, last_name, age, dojo_id)
+ VALUES ('Jenny', 'Sam',39, 8),('Marty', 'McCoder',29, 8),('Jesus', 'Montes',33, 8)	3 row(s) affected
+ Records: 3  Duplicates: 0  Warnings: 0	0.000 sec
+3	45	08:27:54	INSERT INTO ninjas (first_name, last_name, age, dojo_id)
+ VALUES ('Jenny', 'Sam',39, 9),('Marty', 'McCoder',29, 9),('Jesus', 'Montes',33, 9)	3 row(s) affected
+ Records: 3  Duplicates: 0  Warnings: 0	0.000 sec
+3	46	08:27:57	SELECT * FROM dojos_and_ninjas2.ninjas
+ LIMIT 0, 1000	12 row(s) returned	0.000 sec / 0.000 sec
+3	47	08:29:43	SELECT * from ninjas WHERE dojo_id = 7
+ LIMIT 0, 1000	6 row(s) returned	0.000 sec / 0.000 sec
+3	48	08:30:19	SELECT * from ninjas WHERE dojo_id = 9
+ LIMIT 0, 1000	3 row(s) returned	0.000 sec / 0.000 sec
+3	49	08:31:57	SELECT * from ninjas WHERE id = 9
+ LIMIT 0, 1000	1 row(s) returned	0.000 sec / 0.000 sec
+3	50	08:32:20	SELECT * from dojos WHERE id = 9
+ LIMIT 0, 1000	1 row(s) returned	0.000 sec / 0.000 sec
